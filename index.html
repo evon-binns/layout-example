@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Layout Examples</title>
+  <link rel="stylesheet" href="./fonts/inter.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="page-wrapper">
+  <main class="news-wrapper">
+    <section class="inner-news-wrapper">
+      <div class="spacer"></div>
+      <div class="news-container">
+        <header role="banner">
+          <div>
+            <h1>News</h1>
+            <h4 aria-labelledby="Software Studio News">Software Studio</h4>
+          </div>
+          <button tabindex=0 aria-label="follow sms software studio for more updates" title="Follow SMS Software Studio">Follow</button>
+        </header>
+        <section class="featured-article" role="region">
+          <div class="video">
+            <div class="play-button-wrapper">
+              <button class="play-button" title="Play Video" tabindex=0 aria-label="play irad launch video">
+                <img src="./img/icon-play.svg" alt="play icon">
+              </button>
+            </div>
+            <img src="./img/irad-vid-thumbnail@2x.jpg" alt="irad launch video thumbnail">
+            <div class="shadow-wrapper">
+              <div class="shadow"></div>
+            </div>
+          </div>
+          <div class="article">
+            <h2>IRAD Website Launch</h2>
+            <h6>Product Management & RM Platform</h6>
+            <p>
+              IRAD Medical Supplies engaged SMS to assist with creating an end-to-end customer experience solution. Our solution began by talking to their ...
+            </p>
+            <button tabindex=0 title="View the Entire Article" aria-labelledby="read the irad website launch article">
+              Read More
+            </button>
+          </div>
+          <div class="article-select">
+            <button tabindex=0 title="Previous Article" aria-label="previous article"><img src="./img/icon-left-arrow.svg" alt="left arrow" ></button>
+            <div>
+              <button tabindex=0 title="Article 1" aria-label="article 1 of 4 not selected">
+                <img src="./img/icon-indicator.svg" alt="a feature article">
+              </button>
+              <button tabindex=0 title="Article 2" aria-label="article 2 of 4 selected" aria-selected="true">
+                <img src="./img/icon-indicator-selected.svg" alt="selected feature article">
+              </button>
+              <button tabindex=0 title="Article 3" aria-label="article 3 of 4 not selected">
+                <img src="./img/icon-indicator.svg" alt="a feature article">
+              </button>
+              <button tabindex=0 title="Article 4" aria-label="article 4 of 4 not selected">
+                <img src="./img/icon-indicator.svg" alt="a feature article">
+              </button>
+            </div>
+            <button tabindex=0 title="Next Article" aria-label="next article"><img src="./img/icon-right-arrow.svg" alt="right arrow"></button>
+          </div>
+        </section>
+        <div class="divider"></div>
+        <section class="articles-wrapper">
+          <div class="articles-container">
+            <div class="tab-container">
+              <div aria-labelledby="Latest" class="tabs selected" tabindex=0 role="tab">
+                Latest
+              </div>
+              <div aria-labelledby="Trending" class="tabs" tabindex=0 role="tab">
+                Trending
+              </div>
+              <div aria-labelledby="Hot" class="tabs" tabindex=0 role="tab">
+                Hot
+              </div>
+            </div>
+            <h2>
+              New Team Members Starting Today
+            </h2>
+            <p aria-labelledby="new team members start today" role="article">
+              Starting today we have two new members joining the design team. Check out there profiles, portfolios and social media. Please show them a warm welcome in the comments.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="spacer"></div>
+    </section>
+    </section>
+    <section class="navigation-wrapper">
+      <div class="spacer"></div>
+      <div class="navigation-container">
+        <div class="menu" role="navigation">
+          <a class="selected" href="#internal-news" tabindex=0 role="button" title="Internal News" aria-label="internal team news page">
+            <img src="./img/icon-team-intenral.svg" alt="internal news">
+          </a>
+          <a href="#external-news" tabindex=0 role="button" title="External News" aria-label="external team news page">
+            <img src="./img/icon-team-external.svg" alt="external team">
+          </a>
+          <a href="#podcast" tabindex=0 role="button" title="Podcast" aria-label="podcast page">
+            <img src="./img/icon-microphone.svg" alt="podcast">
+          </a>
+          <a href="#blog" tabindex=0 role="button" title="Blog" aria-label="blog page">
+            <img src="./img/icon-blog.svg" alt="blog">
+          </a>
+        </div>
+        <input type="text" placeholder="Search News" title="Search" aria-label="Search News">
+      </div>
+      <div class="spacer"></div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
